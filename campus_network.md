@@ -121,19 +121,4 @@
 
 ---
 
-#### **6. Optimization**
-**Problem**: High traffic between Floor 2/3 aggregation switches.  
-**Solutions**:
-1. Add physical links + configure Eth-Trunk (link aggregation).
-2. Adjust OSPF costs for load balancing via `CORE1`.
-
----
-
-#### **7. Key Challenges & Solutions**
-1. **OSPF Neighbor Issue**:
-   - **Cause**: Inter-switch links in different VLANs (no direct L2 adjacency).
-   - **Fix**: Use `/30` subnets for point-to-point interconnects (e.g., `192.168.201.0/30`).
-
-2. **Scalability**: VLAN/IP planning reserves space for future floors (e.g., VLANs 4+ for Floor 4).
----
 
