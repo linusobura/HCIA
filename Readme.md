@@ -1,3 +1,15 @@
+## Table of Contents
+- [Chapter 1: Introduction](#chapter-1-introduction)
+- [Chapter 2: Networking Basics](#chapter-2-networking-basics)
+  - [2.1 OSI Model](#21-osi-model)
+  - [2.2 TCP/IP Model](#22-tcpip-model)
+- [Chapter 3: IP Addressing](#chapter-3-ip-addressing)
+  - [3.1 IPv4 vs IPv6](#31-ipv4-vs-ipv6)
+- [Chapter 4: Routing](#chapter-4-routing)
+- [Chapter 5: Switching](#chapter-5-switching)
+- [Chapter 6: Security Basics](#chapter-6-security-basics)
+- [Conclusion](#conclusion)
+
 ### **1. Communication & Networks**
 
 #### **1.1 Network Communication Concepts**
